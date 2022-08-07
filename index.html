@@ -1,474 +1,850 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Curriculum Vitae de Alfonso Guzmán para posibles cargos en desarrollo web como especialista en Front End o  UI Designer." />
-    <title>Curriculum | Alfonso Guzmán</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png" />
+    <meta
+      name="description"
+      content="Curriculum Vitae de Alfonso Guzmán para posibles cargos en desarrollo web como especialista en Front End o  UI Designer."
+    />
+    <title>Curriculum | Alfonso</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
     <link rel="manifest" href="assets/img/site.webmanifest" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-
-    <main class="bg-white container mx-auto mt-4 p-0 shadow-lg rounded overflow-hidden">
-
-        <header class="bg-custom-primary py-3 text-color position-sticky">
-            <div class="d-flex align-items-center mx-0 px-4">
-                <div class="pe-3">
-                    <img src="assets/img/perfil-mobile.jpg" alt="Alfonso Guzmán" class="rounded-circle d-lg-none" width="90" height="90" />
-                </div>
-                <div class="col text-lg-end">
-                    <h1 class="fw-light text-uppercase border-dark d-inline-block pb-1 col-12">Alfonso Guzmán</h1>
-                    <span class="fw-medium d-block">Desarrollador Front End & UI Designer</span>
-                </div>
-            </div>
-            <div role="img" class="img col-3 ms-4 position-absolute overflow-hidden d-none d-lg-block">
-                <div class="text-start position-absolute py-4 px-3 m-0 list-unstyled w-100 text-white text-nowrap">
-                    <strong class="text-uppercase">Acerca de mi</strong>
-                    <p class="text-wrap mb-4">Tengo con una amplia experiencia en el área web, en múltiples ámbitos digitales y también habilidades tanto en diseño como en desarrollo de software, lo que en la industria se denomina un unicornio digital.</p>
-                    <ul class="list-unstyled p-0">
-                        <li class="mb-2">
-                            <i class="fa-brands fa-linkedin me-2" aria-hidden="true"></i>
-                            <a href="https://www.linkedin.com/in/alfonso-guzm%C3%A1n-638950148/" target="_blank" class="text-white">Linkedin</a>
-                        </li>
-                        <li class="mb-2">
-                            <i class="fa-solid fa-mobile-screen me-2" aria-hidden="true"></i>
-                            <a href="tel:+56989325166" class="text-white">+569 8 932 5166</a>
-                        </li>
-                        <li class="mb-2">
-                            <i class="fa-solid fa-envelope me-2" aria-hidden="true"></i>
-                            <a href="mailto:alfonsoguzman@live.cl" class="text-white">alfonsoguzman@live.cl</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-
-        <nav class="col-12 col-lg-9 offset-lg-3 ps-lg-4 py-0 navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid py-2 px-3 justify-content-end bg-light">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav text-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#ex-profesional">Experiencia Profesional</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#ex-academica">Experiencia Académica</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portafolio">Portafolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#habilidades">Habilidades</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="row mx-0 ps-lg-4">
-            <div id="contenido" class="col-12 col-lg-9 offset-lg-3 px-0 px-lg-2 overflow-x-hidden overflow-y-auto">
-                <section id="about-me" title="Acerma de mi" class="row align-items-center bg-custom-primary d-lg-none">
-                    <div class="col-12 col-md-7 py-4 px-5 bg-custom-secondary text-white">
-                        <strong class="text-uppercase">Acerca de mi</strong>
-                        <p class="mb-0">Tengo con una amplia experiencia en el área web, en múltiples ámbitos digitales y también habilidades tanto en diseño como en desarrollo de software, lo que en la industria se denomina un unicornio digital.</p>
-                    </div>
-                    <div class="col-12 col-md-5 py-4 px-5 px-md-4 bg-custom-primary">
-                        <ul class="list-unstyled p-0 text-color text-nowrap mb-0">
-                            <li class="mb-2">
-                                <i class="fa-brands fa-linkedin me-2 align-bottom"></i>
-                                <a href="https://www.linkedin.com/in/alfonso-guzm%C3%A1n-638950148/" target="_blank" class="text-color">Linkedin</a>
-                            </li>
-                            <li class="mb-2">
-                                <i class="fa-solid fa-mobile-screen me-2 align-bottom"></i>
-                                <a href="tel:+56989325166" class="text-color">+569 8 932 5166</a>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope me-2 align-bottom"></i>
-                                <a href="mailto:alfonsoguzman@live.cl" class="text-color">alfonsoguzman@live.cl</a>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section id="ex-profesional" class="pb-4 mb-5 mb-4" title="Experiencia Profesional">
-                    <h2 class="fw-normal mb-0 title ps-4 py-2 pb-3 position-sticky bg-white">Experiencia Profesional</h2>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-regular fa-building me-1" aria-hidden="true"></i>
-                                    Agencia Youtouch 
-                                    <a href="https://youtouch.cl/" target="youtouch" title="Agencia Youtouch">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2010 - 2013
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Actividades realizadas</h4>
-                                <ul class="m-0">
-                                    <li>Wordpress</li>
-                                    <li>Drupal</li>
-                                    <li>Juegos en HTML 5 utilizando construct 2</li>
-                                    <li>Realidad aumentada</li>
-                                    <li>Maquetación HTML para Smart TV</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-regular fa-building me-1" aria-hidden="true"></i>
-                                    Agencia de publicidad Boliche
-                                    <a href="https://losgallos.cl/" target="losgallos" title="Agencia Los Gallos ex Boliche">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2014 - 2017
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Actividades realizadas</h4>
-                                <ul class="m-0">
-                                    <li>Atendiendo a WOM como cliente principal</li>
-                                    <li>Creación de banners publicitarios (Google Web Designer)</li>
-                                    <li>Mailings corporativos</li>
-                                    <li>Juegos en HTML 5 utilizando construct 2</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-regular fa-building me-1" aria-hidden="true"></i>
-                                    Agencia de publicidad Doblegiro
-                                    <a href="https://www.doblegiro.cl/" target="doblegiro" title="Agencia de publicidad Doblegiro">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2017 - 2019
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Actividades realizadas</h4>
-                                <ul class="m-0">
-                                    <li>Atendiendo a Santa Isabel como cliente principal</li>
-                                    <li>Creación de banners publicitarios (Google Web Designer)</li>
-                                    <li>Wordpress</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-regular fa-building me-1" aria-hidden="true"></i>
-                                    Instituto Profesional Arcos
-                                    <a href="https://www.arcos.cl/" target="arcos" title="Instituto Profesional Arcos">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2018 - 2019
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Actividades realizadas</h4>
-                                <ul class="m-0">
-                                    <li>Profesor de la asignatura plataformas digitales, enseñando a alumnos de la carrera de periodismo.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-regular fa-building me-1" aria-hidden="true"></i>
-                                    Forum servicios financieros 
-                                    <a href="https://www.forum.cl/" target="forum" title="Forum servicios financieros">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2019 - A la fecha
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Actividades realizadas</h4>
-                                <ul class="m-0">
-                                    <li>Desarrollo en Framework Angular</li>
-                                    <li>Tests de usuarios</li>
-                                    <li>Diseño y prototipado en Figma</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </article>
-                </section>
-
-                <section id="ex-academica" class="pb-4 mb-4" title="Experiencia Academica">
-                    <h2 class="fw-normal mb-0 title ps-4 py-2 pb-3 position-sticky bg-white">Experiencia Académica</h2>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
-                                    Instituto de artes y Ciencias INCACEA
-                                    <a href="https://www.educaedu-chile.com/centros/inca-cea-instituto-profesional-de-ciencias-y-artes-sede-santiago-uni1062" target="incacea" title="Instituto de artes y Ciencias INCACEA">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2008 - 2010
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Diseño web y multimedia</h4>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
-                                    Instituto Audiovisual DGM 
-                                    <a href="https://www.dgm.cl/" target="dgm" title="Instituto Audiovisual DGM">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2012 - 2013
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Diplomado Modelado y Animación 3D Max</h4>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
-                                    Academia Desafío Latam 
-                                    <a href="https://desafiolatam.com/diseno-ux-ui/" target="desafiolatam" title="Academia Desafío Latam">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2020
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Carrera intensiva UX / UI</h4>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="p-0 my-5">
-                        <ul class="px-4">
-                            <li class="list-unstyled">
-                                <h3 class="text-uppercase fw-medium h4">
-                                    <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
-                                    Academia Desafío Latam 
-                                    <a href="https://desafiolatam.com/front-end-react/" target="desafiolatam" title="Academia Desafío Latam">
-                                        <i class="fa-solid fa-link" aria-hidden="true"></i>
-                                    </a>
-                                </h3>
-                                <span class="fw-medium">
-                                    <i class="fa-regular fa-calendar me-2" aria-hidden="true"></i>
-                                    2022
-                                </span>
-                                <h4 class="mt-3 fw-medium h6 text-uppercase">Carrera intensiva Front End React</h4>
-                            </li>
-                        </ul>
-                    </article>
-                </section>
-
-                <section id="portafolio" class="pb-4 mb-4" title="Portafolio">
-                    <h2 class="fw-normal mb-0 title ps-4 py-2 pb-3 position-sticky bg-white">Portafolio</h2>
-                    <div class="row px-3 mx-0">
-                        <div class="mb-4 my-3">
-                            <p class="col-12 col-md-8 mb-0">
-                                A continuación se puede encontrar algunos de los últimos proyectos en los cuales he trabajado, tanto en diseño como en desarrollo.
-                            </p>
-                        </div>
-                        <!-- CARD -->
-                        <div class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="card text-dark bg-light rounded-0 h-100">
-                                <img src="assets/img/desplegargroup.jpg" alt="Desplegar Group" class="img-fluid" width="600" height="293"  />
-                                <div class="card-body">
-                                  <h3 class="card-title h5">Desplegar Group</h3>
-                                  <p class="card-text">
-                                    Sitio informativo especialista en Gestión Integral de Riesgos.
-                                  </p>
-                                  <div class="text-end">
-                                    <a class="btn btn-sm" href="https://www.desplegargroup.cl/" target="desplegargroup" title="Ver Proyecto">Ver más &raquo;</a>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-
-                        <div class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="card text-dark bg-light rounded-0 h-100">
-                                <img src="assets/img/rilan.jpg" alt="Estancia Rilan" class="img-fluid" width="600" height="293"  />
-                                <div class="card-body">
-                                  <h3 class="card-title h5">Estancia Rilan</h3>
-                                  <p class="card-text">
-                                    Sitio desarrollado con CMS WordPress, WooCommerce y sistema de reserva de habitaciones.
-                                  </p>
-                                  <div class="text-end">
-                                    <a class="btn btn-sm" href="https://www.estanciarilan.cl/" target="estanciarilan" title="Ver Proyecto">Ver más &raquo;</a>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-
-                        <div class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="card text-dark bg-light rounded-0 h-100">
-                                <img src="assets/img/soprolecontigo.jpg" alt="Soprole Contigo" class="img-fluid" width="600" height="293"  />
-                                <div class="card-body">
-                                  <h3 class="card-title h5">Soprole Contigo</h3>
-                                  <p class="card-text">
-                                    Landing page informativo desarrollado para la empresa soprole (Desktop y Mobile).
-                                  </p>
-                                  <div class="text-end">
-                                    <a class="btn btn-sm" href="https://www.soprolecontigo.cl/" target="soprole" title="Ver Proyecto">Ver más &raquo;</a>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-
-                        <div class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="card text-dark bg-light rounded-0 h-100">
-                                <img src="assets/img/elestudio.jpg" alt="El estudio" class="img-fluid" width="600" height="293"  />
-                                <div class="card-body">
-                                  <h3 class="card-title h5">El estudio</h3>
-                                  <p class="card-text">
-                                    Sitio desarrollado como catálogo de productos y servicios para la agencia y estudio creativo ELESTUDIO.
-                                  </p>
-                                  <div class="text-end">
-                                    <a class="btn btn-sm" href="https://elestudio.cl" target="elestudio" title="Ver Proyecto">Ver más &raquo;</a>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-
-                        <div class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="card text-dark bg-light rounded-0 h-100">
-                                <img src="assets/img/vina-la-rosa.jpg" alt="Viña la Rosa" class="img-fluid" width="600" height="293"  />
-                                <div class="card-body">
-                                  <h3 class="card-title h5">Viña la Rosa</h3>
-                                  <p class="card-text">
-                                    Tienda desarrollada con CMS WordPress, WooCommerce y diseño personalizado.
-                                  </p>
-                                  <div class="text-end">
-                                    <a class="btn btn-sm" href="https://larosa.cl/inicio/" target="vinalarosa" title="Ver Proyecto">Ver más &raquo;</a>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-
-                        <div class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="card text-dark bg-light rounded-0 h-100">
-                                <img src="assets/img/cinemachile.jpg" alt="Cinema Chile" class="img-fluid" width="600" height="293"  />
-                                <div class="card-body">
-                                  <h3 class="card-title h5">Cinema Chile</h3>
-                                  <p class="card-text">
-                                    Desarrollo de catálogo internacional de cine chileno para "Cinema Chile" de cara al festival de canes 2022.
-                                  </p>
-                                  <div class="text-end">
-                                    <a class="btn btn-sm" href="https://www.cinemachile.cl/category/catalogo/catalogo-de-cine-2022/" target="cinemachile" title="Ver Proyecto">Ver más &raquo;</a>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                        <!-- CARD -->
-                    </div>
-                </section>
-
-                <section id="habilidades" class="pb-4 mb-4" title="Habilidades">
-                    <h2 class="fw-normal mb-0 title ps-4 py-2 pb-3 position-sticky bg-white">Habilidades</h2>
-                    <div class="col-12 col-md-8 px-4 pb-5">
-                        <p class="mb-4 my-3">Mis principales habilidades están enfocadas en la capa de experiencia usuario, como lo son las siguientes: </p>
-                        <article class="my-4">
-                            <div class="row">
-                                <span class="col mb-1 d-block">
-                                    <i class="fa-brands fa-html5 me-1" aria-hidden="true"></i> HTML
-                                </span>
-                                <strong class="col text-end">90%</strong>
-                            </div>
-                            <div class="progress custom-progress rounded-0 bg-custom-primary">
-                                <div class="progress-bar bg-custom-secondary" role="progressbar" aria-label="Progressbar HTML" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                                </div>
-                            </div>
-                        </article>
-                        <article class="my-4">
-                            <div class="row">
-                                <span class="col mb-1 d-block">
-                                    <i class="fa-brands fa-css3-alt me-1" aria-hidden="true"></i> CSS
-                                </span>
-                                <strong class="col text-end">93%</strong>
-                            </div>
-                            <div class="progress custom-progress rounded-0 bg-custom-primary">
-                                <div class="progress-bar bg-custom-secondary" role="progressbar" aria-label="Progressbar CSS" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
-                                </div>
-                            </div>
-                        </article>
-                        <article class="my-4">
-                            <div class="row">
-                                <span class="col mb-1 d-block">
-                                    <i class="fa-brands fa-js me-1" aria-hidden="true"></i> JAVASCRIPT
-                                </span>
-                                <strong class="col text-end">72%</strong>
-                            </div>
-                            <div class="progress custom-progress rounded-0 bg-custom-primary">
-                                <div class="progress-bar bg-custom-secondary" role="progressbar" aria-label="Progressbar JAVASCRIPT" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 68%">
-                                </div>
-                            </div>
-                        </article>
-                        <article class="my-4">
-                            <div class="row">
-                                <span class="col mb-1 d-block">
-                                    <i class="fa-brands fa-figma me-1" aria-hidden="true"></i> UI FIGMA
-                                </span>
-                                <strong class="col text-end">95%</strong>
-                            </div>
-                            <div class="progress custom-progress rounded-0 bg-custom-primary">
-                                <div class="progress-bar bg-custom-secondary" role="progressbar" aria-label="Progressbar UI FIGMA" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-
-            </div>
+  </head>
+  <body>
+    <main
+      class="bg-white container mx-auto mt-4 p-0 shadow-lg rounded overflow-hidden"
+    >
+      <header class="bg-custom-primary py-3 text-color position-sticky">
+        <div class="d-flex align-items-center mx-0 px-4">
+          <div class="pe-3">
+            <img
+              src="assets/img/perfil-mobile.jpg"
+              alt="Alfonso Guzmán"
+              class="rounded-circle d-lg-none"
+              width="90"
+              height="90"
+            />
+          </div>
+          <div class="col text-lg-end">
+            <h1
+              class="fw-light text-uppercase border-dark d-inline-block pb-1 col-12"
+            >
+              Alfonso Guzmán
+            </h1>
+            <span class="fw-medium d-block"
+              >Desarrollador Front End & UI Designer</span
+            >
+          </div>
         </div>
+        <div
+          role="img"
+          class="img col-3 ms-4 position-absolute overflow-hidden d-none d-lg-block"
+        >
+          <div
+            class="text-start position-absolute py-4 px-3 m-0 list-unstyled w-100 text-white text-nowrap"
+          >
+            <strong class="text-uppercase">Acerca de mi</strong>
+            <p class="text-wrap mb-4">
+              Tengo con una amplia experiencia en el área web, en múltiples
+              ámbitos digitales y también habilidades tanto en diseño como en
+              desarrollo de software, lo que en la industria se denomina un
+              unicornio digital.
+            </p>
+            <ul class="list-unstyled p-0">
+              <li class="mb-2">
+                <i class="fa-brands fa-linkedin me-2" aria-hidden="true"></i>
+                <a
+                  href="https://www.linkedin.com/in/alfonso-guzm%C3%A1n-638950148/"
+                  target="_blank"
+                  class="text-white"
+                  >Linkedin</a
+                >
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-mobile-screen me-2"
+                  aria-hidden="true"
+                ></i>
+                <a href="tel:+56989325166" class="text-white"
+                  >+569 8 932 5166</a
+                >
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-envelope me-2" aria-hidden="true"></i>
+                <a href="mailto:alfonsoguzman@live.cl" class="text-white"
+                  >alfonsoguzman@live.cl</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <nav
+        class="col-12 col-lg-9 offset-lg-3 ps-lg-4 py-0 navbar navbar-expand-lg navbar-light"
+      >
+        <div class="container-fluid py-2 px-3 justify-content-end bg-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav text-end">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#ex-profesional"
+                  >Experiencia Profesional</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ex-academica"
+                  >Experiencia Académica</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portafolio">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row mx-0 ps-lg-4">
+        <div
+          id="contenido"
+          class="col-12 col-lg-9 offset-lg-3 px-0 px-lg-2 overflow-x-hidden overflow-y-auto"
+        >
+          <section
+            id="about-me"
+            title="Acerma de mi"
+            class="row align-items-center bg-custom-primary d-lg-none"
+          >
+            <div
+              class="col-12 col-md-7 py-4 px-5 bg-custom-secondary text-white"
+            >
+              <strong class="text-uppercase">Acerca de mi</strong>
+              <p class="mb-0">
+                Tengo con una amplia experiencia en el área web, en múltiples
+                ámbitos digitales y también habilidades tanto en diseño como en
+                desarrollo de software, lo que en la industria se denomina un
+                unicornio digital.
+              </p>
+            </div>
+            <div class="col-12 col-md-5 py-4 px-5 px-md-4 bg-custom-primary">
+              <ul class="list-unstyled p-0 text-color text-nowrap mb-0">
+                <li class="mb-2">
+                  <i class="fa-brands fa-linkedin me-2 align-bottom"></i>
+                  <a
+                    href="https://www.linkedin.com/in/alfonso-guzm%C3%A1n-638950148/"
+                    target="_blank"
+                    class="text-color"
+                    >Linkedin</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="fa-solid fa-mobile-screen me-2 align-bottom"></i>
+                  <a href="tel:+56989325166" class="text-color"
+                    >+569 8 932 5166</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope me-2 align-bottom"></i>
+                  <a href="mailto:alfonsoguzman@live.cl" class="text-color"
+                    >alfonsoguzman@live.cl</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section
+            id="ex-profesional"
+            class="pb-4 mb-5 mb-4"
+            title="Experiencia Profesional"
+          >
+            <h2
+              class="fw-normal mb-0 title ps-4 py-2 pb-3 position-sticky bg-white"
+            >
+              Experiencia Profesional
+            </h2>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-regular fa-building me-1"
+                      aria-hidden="true"
+                    ></i>
+                    Agencia Youtouch
+                    <a
+                      href="https://youtouch.cl/"
+                      target="youtouch"
+                      title="Agencia Youtouch"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2010 - 2013
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Actividades realizadas
+                  </h4>
+                  <ul class="m-0">
+                    <li>Wordpress</li>
+                    <li>Drupal</li>
+                    <li>Juegos en HTML 5 utilizando construct 2</li>
+                    <li>Realidad aumentada</li>
+                    <li>Maquetación HTML para Smart TV</li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-regular fa-building me-1"
+                      aria-hidden="true"
+                    ></i>
+                    Agencia de publicidad Boliche
+                    <a
+                      href="https://losgallos.cl/"
+                      target="losgallos"
+                      title="Agencia Los Gallos ex Boliche"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2014 - 2017
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Actividades realizadas
+                  </h4>
+                  <ul class="m-0">
+                    <li>Atendiendo a WOM como cliente principal</li>
+                    <li>
+                      Creación de banners publicitarios (Google Web Designer)
+                    </li>
+                    <li>Mailings corporativos</li>
+                    <li>Juegos en HTML 5 utilizando construct 2</li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-regular fa-building me-1"
+                      aria-hidden="true"
+                    ></i>
+                    Agencia de publicidad Doblegiro
+                    <a
+                      href="https://www.doblegiro.cl/"
+                      target="doblegiro"
+                      title="Agencia de publicidad Doblegiro"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2017 - 2019
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Actividades realizadas
+                  </h4>
+                  <ul class="m-0">
+                    <li>Atendiendo a Santa Isabel como cliente principal</li>
+                    <li>
+                      Creación de banners publicitarios (Google Web Designer)
+                    </li>
+                    <li>Wordpress</li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-regular fa-building me-1"
+                      aria-hidden="true"
+                    ></i>
+                    Instituto Profesional Arcos
+                    <a
+                      href="https://www.arcos.cl/"
+                      target="arcos"
+                      title="Instituto Profesional Arcos"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2018 - 2019
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Actividades realizadas
+                  </h4>
+                  <ul class="m-0">
+                    <li>
+                      Profesor de la asignatura plataformas digitales, enseñando
+                      a alumnos de la carrera de periodismo.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-regular fa-building me-1"
+                      aria-hidden="true"
+                    ></i>
+                    Forum servicios financieros
+                    <a
+                      href="https://www.forum.cl/"
+                      target="forum"
+                      title="Forum servicios financieros"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2019 - A la fecha
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Actividades realizadas
+                  </h4>
+                  <ul class="m-0">
+                    <li>Desarrollo en Framework Angular</li>
+                    <li>Tests de usuarios</li>
+                    <li>Diseño y prototipado en Figma</li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+          </section>
+
+          <section
+            id="ex-academica"
+            class="pb-4 mb-4"
+            title="Experiencia Academica"
+          >
+            <h2
+              class="fw-normal mb-0 title ps-4 py-2 pb-3 position-sticky bg-white"
+            >
+              Experiencia Académica
+            </h2>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-solid fa-graduation-cap"
+                      aria-hidden="true"
+                    ></i>
+                    Instituto de artes y Ciencias INCACEA
+                    <a
+                      href="https://www.educaedu-chile.com/centros/inca-cea-instituto-profesional-de-ciencias-y-artes-sede-santiago-uni1062"
+                      target="incacea"
+                      title="Instituto de artes y Ciencias INCACEA"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2008 - 2010
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Diseño web y multimedia
+                  </h4>
+                </li>
+              </ul>
+            </article>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-solid fa-graduation-cap"
+                      aria-hidden="true"
+                    ></i>
+                    Instituto Audiovisual DGM
+                    <a
+                      href="https://www.dgm.cl/"
+                      target="dgm"
+                      title="Instituto Audiovisual DGM"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2012 - 2013
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Diplomado Modelado y Animación 3D Max
+                  </h4>
+                </li>
+              </ul>
+            </article>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-solid fa-graduation-cap"
+                      aria-hidden="true"
+                    ></i>
+                    Academia Desafío Latam
+                    <a
+                      href="https://desafiolatam.com/diseno-ux-ui/"
+                      target="desafiolatam"
+                      title="Academia Desafío Latam"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2020
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Carrera intensiva UX / UI
+                  </h4>
+                </li>
+              </ul>
+            </article>
+            <article class="p-0 my-5">
+              <ul class="px-4">
+                <li class="list-unstyled">
+                  <h3 class="text-uppercase fw-medium h4">
+                    <i
+                      class="fa-solid fa-graduation-cap"
+                      aria-hidden="true"
+                    ></i>
+                    Academia Desafío Latam
+                    <a
+                      href="https://desafiolatam.com/front-end-react/"
+                      target="desafiolatam"
+                      title="Academia Desafío Latam"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </h3>
+                  <span class="fw-medium">
+                    <i
+                      class="fa-regular fa-calendar me-2"
+                      aria-hidden="true"
+                    ></i>
+                    2022
+                  </span>
+                  <h4 class="mt-3 fw-medium h6 text-uppercase">
+                    Carrera intensiva Front End React
+                  </h4>
+                </li>
+              </ul>
+            </article>
+          </section>
+
+          <section id="portafolio" class="pb-4 mb-4" title="Portafolio">
+            <h2
+              class="fw-normal mb-0 title ps-4 py-2 pb-3 position-sticky bg-white"
+            >
+              Portafolio
+            </h2>
+            <div class="row px-3 mx-0">
+              <div class="mb-4 my-3">
+                <p class="col-12 col-md-8 mb-0">
+                  A continuación se puede encontrar algunos de los últimos
+                  proyectos en los cuales he trabajado, tanto en diseño como en
+                  desarrollo.
+                </p>
+              </div>
+              <!-- CARD -->
+              <div class="col-12 col-sm-6 col-xl-4 mb-3">
+                <div class="card text-dark bg-light rounded-0 h-100">
+                  <img
+                    src="assets/img/desplegargroup.jpg"
+                    alt="Desplegar Group"
+                    class="img-fluid"
+                    width="600"
+                    height="293"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title h5">Desplegar Group</h3>
+                    <p class="card-text">
+                      Sitio informativo especialista en Gestión Integral de
+                      Riesgos.
+                    </p>
+                    <div class="text-end">
+                      <a
+                        class="btn btn-sm"
+                        href="https://www.desplegargroup.cl/"
+                        target="desplegargroup"
+                        title="Ver Proyecto"
+                        >Ver más &raquo;</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-xl-4 mb-3">
+                <div class="card text-dark bg-light rounded-0 h-100">
+                  <img
+                    src="assets/img/rilan.jpg"
+                    alt="Estancia Rilan"
+                    class="img-fluid"
+                    width="600"
+                    height="293"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title h5">Estancia Rilan</h3>
+                    <p class="card-text">
+                      Sitio desarrollado con CMS WordPress, WooCommerce y
+                      sistema de reserva de habitaciones.
+                    </p>
+                    <div class="text-end">
+                      <a
+                        class="btn btn-sm"
+                        href="https://www.estanciarilan.cl/"
+                        target="estanciarilan"
+                        title="Ver Proyecto"
+                        >Ver más &raquo;</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-xl-4 mb-3">
+                <div class="card text-dark bg-light rounded-0 h-100">
+                  <img
+                    src="assets/img/soprolecontigo.jpg"
+                    alt="Soprole Contigo"
+                    class="img-fluid"
+                    width="600"
+                    height="293"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title h5">Soprole Contigo</h3>
+                    <p class="card-text">
+                      Landing page informativo desarrollado para la empresa
+                      soprole (Desktop y Mobile).
+                    </p>
+                    <div class="text-end">
+                      <a
+                        class="btn btn-sm"
+                        href="https://www.soprolecontigo.cl/"
+                        target="soprole"
+                        title="Ver Proyecto"
+                        >Ver más &raquo;</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-xl-4 mb-3">
+                <div class="card text-dark bg-light rounded-0 h-100">
+                  <img
+                    src="assets/img/elestudio.jpg"
+                    alt="El estudio"
+                    class="img-fluid"
+                    width="600"
+                    height="293"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title h5">El estudio</h3>
+                    <p class="card-text">
+                      Sitio desarrollado como catálogo de productos y servicios
+                      para la agencia y estudio creativo ELESTUDIO.
+                    </p>
+                    <div class="text-end">
+                      <a
+                        class="btn btn-sm"
+                        href="https://elestudio.cl"
+                        target="elestudio"
+                        title="Ver Proyecto"
+                        >Ver más &raquo;</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-xl-4 mb-3">
+                <div class="card text-dark bg-light rounded-0 h-100">
+                  <img
+                    src="assets/img/vina-la-rosa.jpg"
+                    alt="Viña la Rosa"
+                    class="img-fluid"
+                    width="600"
+                    height="293"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title h5">Viña la Rosa</h3>
+                    <p class="card-text">
+                      Tienda desarrollada con CMS WordPress, WooCommerce y
+                      diseño personalizado.
+                    </p>
+                    <div class="text-end">
+                      <a
+                        class="btn btn-sm"
+                        href="https://larosa.cl/inicio/"
+                        target="vinalarosa"
+                        title="Ver Proyecto"
+                        >Ver más &raquo;</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-xl-4 mb-3">
+                <div class="card text-dark bg-light rounded-0 h-100">
+                  <img
+                    src="assets/img/cinemachile.jpg"
+                    alt="Cinema Chile"
+                    class="img-fluid"
+                    width="600"
+                    height="293"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title h5">Cinema Chile</h3>
+                    <p class="card-text">
+                      Desarrollo de catálogo internacional de cine chileno para
+                      "Cinema Chile" de cara al festival de canes 2022.
+                    </p>
+                    <div class="text-end">
+                      <a
+                        class="btn btn-sm"
+                        href="https://www.cinemachile.cl/category/catalogo/catalogo-de-cine-2022/"
+                        target="cinemachile"
+                        title="Ver Proyecto"
+                        >Ver más &raquo;</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD -->
+            </div>
+          </section>
+
+          <section id="habilidades" class="pb-4 mb-4" title="Habilidades">
+            <h2
+              class="fw-normal mb-0 title ps-4 py-2 pb-3 position-sticky bg-white"
+            >
+              Habilidades
+            </h2>
+            <div class="col-12 col-md-8 px-4 pb-5">
+              <p class="mb-4 my-3">
+                Mis principales habilidades están enfocadas en la capa de
+                experiencia usuario, como lo son las siguientes:
+              </p>
+              <article class="my-4">
+                <div class="row">
+                  <span class="col mb-1 d-block">
+                    <i class="fa-brands fa-html5 me-1" aria-hidden="true"></i>
+                    HTML
+                  </span>
+                  <strong class="col text-end">90%</strong>
+                </div>
+                <div
+                  class="progress custom-progress rounded-0 bg-custom-primary"
+                >
+                  <div
+                    class="progress-bar bg-custom-secondary"
+                    role="progressbar"
+                    aria-label="Progressbar HTML"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </article>
+              <article class="my-4">
+                <div class="row">
+                  <span class="col mb-1 d-block">
+                    <i
+                      class="fa-brands fa-css3-alt me-1"
+                      aria-hidden="true"
+                    ></i>
+                    CSS
+                  </span>
+                  <strong class="col text-end">93%</strong>
+                </div>
+                <div
+                  class="progress custom-progress rounded-0 bg-custom-primary"
+                >
+                  <div
+                    class="progress-bar bg-custom-secondary"
+                    role="progressbar"
+                    aria-label="Progressbar CSS"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 93%"
+                  ></div>
+                </div>
+              </article>
+              <article class="my-4">
+                <div class="row">
+                  <span class="col mb-1 d-block">
+                    <i class="fa-brands fa-js me-1" aria-hidden="true"></i>
+                    JAVASCRIPT
+                  </span>
+                  <strong class="col text-end">72%</strong>
+                </div>
+                <div
+                  class="progress custom-progress rounded-0 bg-custom-primary"
+                >
+                  <div
+                    class="progress-bar bg-custom-secondary"
+                    role="progressbar"
+                    aria-label="Progressbar JAVASCRIPT"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 68%"
+                  ></div>
+                </div>
+              </article>
+              <article class="my-4">
+                <div class="row">
+                  <span class="col mb-1 d-block">
+                    <i class="fa-brands fa-figma me-1" aria-hidden="true"></i>
+                    UI FIGMA
+                  </span>
+                  <strong class="col text-end">95%</strong>
+                </div>
+                <div
+                  class="progress custom-progress rounded-0 bg-custom-primary"
+                >
+                  <div
+                    class="progress-bar bg-custom-secondary"
+                    role="progressbar"
+                    aria-label="Progressbar UI FIGMA"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
     </main>
 
-
     <!-- SCRIPTS -->
-    <script src="https://kit.fontawesome.com/782380a832.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/782380a832.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        const link = jQuery('.navbar li a');
-        link.on('click', function(e){
-             link.removeClass('active');
-             jQuery(this).addClass('active');
-             jQuery('div.collapse').removeClass('show');
-        });
+      const link = jQuery(".navbar li a");
+      link.on("click", function (e) {
+        link.removeClass("active");
+        jQuery(this).addClass("active");
+        jQuery("div.collapse").removeClass("show");
+      });
     </script>
     <!-- SCRIPTS -->
-</body>
+  </body>
 </html>
